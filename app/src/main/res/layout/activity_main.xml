@@ -130,12 +130,14 @@
                     android:id="@+id/tvCat"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="BMI Category : " />
+                    android:text="BMI Category : "
+                    android:textColor="#000000" />
 
                 <TextView
                     android:id="@+id/tvOutputCat"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
             </TableRow>
 
             <TableRow
@@ -147,12 +149,14 @@
                     android:id="@+id/tvBMI"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="BMI Range :" />
+                    android:text="BMI Value :"
+                    android:textColor="#000000" />
 
                 <TextView
                     android:id="@+id/tvOutputBMI"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
             </TableRow>
 
             <TableRow
@@ -164,12 +168,14 @@
                     android:id="@+id/tvHealth"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Health Risk :" />
+                    android:text="Health Risk :"
+                    android:textColor="#000000" />
 
                 <TextView
                     android:id="@+id/tvOutputHealth"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000" />
             </TableRow>
         </TableLayout>
 

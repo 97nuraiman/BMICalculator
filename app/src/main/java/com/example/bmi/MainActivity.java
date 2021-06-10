@@ -9,6 +9,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.text.method.LinkMovementMethod;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -117,7 +118,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     }
 
                     tvOutputCat.setText(" " + bmiCat);
-                    tvOutputBMI.setText(String.format("%.2f", bmi));
+                    tvOutputBMI.setText(String.format("%.2f", bmi) + " kg/m²");
                     tvOutputHealth.setText(healthRisk);
 
                     //tvOutput.setText("\nBMI Category : " + bmiCat + "\n\n" + "BMI Value : " + String.format("%.2f", bmi) + " kg/m²" + "\n\n" + "Health Risk : " + healthRisk);
